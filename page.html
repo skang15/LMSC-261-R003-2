@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="terminal-container"
+      style="
+        background-color: #0d0d0d;
+        color: #33ff33;
+        font-family: &quot;Courier New&quot;, Courier, monospace;
+        padding: 30px;
+        border-radius: 6px;
+        max-width: 850px;
+        margin: 20px auto;
+        line-height: 1.8;
+        font-size: 18px;
+        border: 2px solid #33ff33;
+      "
+    >
+      <div
+        style="
+          background-color: #0c161c;
+          padding: 25px;
+          border-radius: 4px;
+          margin-bottom: 30px;
+          border: 1px solid #00bcff;
+        "
+      >
+        <h2
+          style="
+            color: #00bcff;
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-size: 1.4em;
+            border-bottom: 2px solid rgba(0, 188, 255, 0.25);
+            padding-bottom: 12px;
+          "
+        >
+          <strong>ASSIGNMENT NAME</strong>: CSS Inspection
+        </h2>
+        <div style="margin-bottom: 15px">
+          <h3
+            style="
+              background-color: #121f26;
+              padding: 20px 25px;
+              border-radius: 4px;
+              font-size: 1.2em;
+              line-height: 1.8;
+              color: #ffffff;
+              margin: 0;
+              overflow-x: auto;
+            "
+          >
+            <span style="color: #6da2bf">[Account]</span> github.com/[your-username]<br /><span style="color: #6da2bf"
+              >&nbsp;└── [Repo]</span
+            >
+            LMSC-261-R003-2
+          </h3>
+        </div>
+      </div>
+      <div
+        style="
+          background-color: #111a11;
+          padding: 25px;
+          border-radius: 4px;
+          margin-bottom: 40px;
+          border: 1px solid #33ff33;
+        "
+      >
+        <h2
+          style="
+            color: #33ff33;
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-size: 1.35em;
+            border-bottom: 2px solid rgba(51, 255, 51, 0.25);
+            padding-bottom: 12px;
+          "
+        >
+          <strong>Overview</strong>
+        </h2>
+        <p>
+          In this lab, you will analyze two provided files: <code>profile.html</code> and <code>event.html</code>. Open
+          each file in your code editor to locate CSS properties, change colors, and see how styling controls the layout
+          of a webpage.
+        </p>
+      </div>
+      <div
+        style="
+          background-color: #111a11;
+          padding: 25px;
+          border-radius: 4px;
+          margin-bottom: 40px;
+          border: 1px solid #33ff33;
+        "
+      >
+        <h2
+          style="
+            color: #33ff33;
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-size: 1.35em;
+            border-bottom: 2px solid rgba(51, 255, 51, 0.25);
+            padding-bottom: 12px;
+          "
+        >
+          <strong>Part 1: Code Analysis (answers.txt)</strong>
+        </h2>
+        <p>
+          Create a file named <code>answers.txt</code> in your assignment folder and answer the following questions
+          based on the CSS in both files:
+        </p>
+        <div
+          style="
+            background-color: #1a160d;
+            padding: 20px;
+            border-radius: 4px;
+            margin-top: 20px;
+            color: #33ff33;
+            border: 1px solid #ffff33;
+          "
+        >
+          <h3 style="color: #ffff33; margin-top: 0; margin-bottom: 15px; font-size: 1.2em">
+            <strong>▶ CODE INSPECTION QUESTIONS</strong>
+          </h3>
+          <h4 style="color: #00bcff; margin-bottom: 10px">profile.html:</h4>
+          <ol style="color: #ffffff; padding-left: 20px; line-height: 1.9; margin-bottom: 25px">
+            <li>
+              <strong>Page Background Color:</strong> Look at the <code>body</code> CSS selector. What property and hex
+              color code set the background color of the whole page?
+            </li>
+            <li>
+              <strong>Job Title Color:</strong> Which class selector controls the style of the job title ("Engineer")?
+              What color property changes its text color?
+            </li>
+            <li>
+              <strong>Hover State:</strong> Look at <code>.btn-connect:hover</code>. What color does the button turn
+              when you hover your mouse over it? Read a bit about pseudo-classes
+              <a
+                class="inline_disabled"
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes"
+                target="_blank"
+                rel="noopener"
+                >here.</a
+              >
+            </li>
+          </ol>
+          <h4 style="color: #00bcff; margin-bottom: 10px">event.html:</h4>
+          <ol style="color: #ffffff; padding-left: 20px; line-height: 1.9" start="4">
+            <li>
+              <strong>Card Border Color:</strong> Inside the <code>.event-card</code> selector, which CSS property
+              creates the <code>2px solid #ec4899</code> border around the card? What color is <code>#ec4899</code>?
+            </li>
+            <li>
+              <strong>Text Size:</strong> Look at the <code>h1</code> rule. What property controls how big the heading
+              text is, and what value is assigned to it?
+            </li>
+            <li>
+              <strong>Rounded Corners:</strong> Which property is used inside <code>.event-card</code> to round the
+              edges of the box by <code>20px</code>?
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div
+        style="
+          background-color: #111a11;
+          padding: 25px;
+          border-radius: 4px;
+          margin-bottom: 40px;
+          border: 1px solid #33ff33;
+        "
+      >
+        <h2
+          style="
+            color: #33ff33;
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-size: 1.35em;
+            border-bottom: 2px solid rgba(51, 255, 51, 0.25);
+            padding-bottom: 12px;
+          "
+        >
+          <strong>Part 2: Hands-On Code Modifications</strong>
+        </h2>
+        <p>Make the following changes directly in your HTML files:</p>
+        <div
+          style="
+            background-color: #1a160d;
+            padding: 20px;
+            border-radius: 4px;
+            margin-top: 20px;
+            color: #33ff33;
+            border: 1px solid #ffff33;
+          "
+        >
+          <h3 style="color: #ffff33; margin-top: 0; margin-bottom: 15px; font-size: 1.2em">
+            <strong>▶ PRACTICAL TASKS</strong>
+          </h3>
+          <ul style="color: #ffffff; padding-left: 20px; line-height: 2">
+            <li>
+              <strong>Task 1 (Personal Information):</strong> Open <code>profile.html</code>. Update the initials, name
+              (<code>&lt;h1&gt;</code>), title, and bio text to reflect your own information.
+            </li>
+            <li>
+              <strong>Task 2 (Color Swap):</strong> Open <code>event.html</code>. Find the
+              <code>.badge</code> background color rule and change it from pink (<code>#f43f5e</code>) to green
+              (<code>#22c55e</code>).
+            </li>
+            <li>
+              <strong>Task 3 (Link the Pages):</strong> In <code>profile.html</code>, update the button tag to link to
+              your event page: <br /><code>&lt;a href="event.html" class="btn-connect"&gt;View Event&lt;/a&gt;</code>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div style="background-color: #0c161c; padding: 25px; border-radius: 4px; border: 1px solid #00bcff">
+        <h2
+          style="
+            color: #00bcff;
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-size: 1.5em;
+            border-bottom: 2px solid rgba(0, 188, 255, 0.25);
+            padding-bottom: 12px;
+          "
+        >
+          <strong>SUBMIT YOUR ASSIGNMENT</strong>
+        </h2>
+        <div style="margin-bottom: 15px">
+          <div
+            style="
+              background-color: #121f26;
+              padding: 20px 25px;
+              border-radius: 4px;
+              font-size: 1.1em;
+              line-height: 1.8;
+              color: #ffffff;
+              margin: 0;
+            "
+          >
+            1. <strong>ADD</strong> <code>answers.txt</code>, <code>profile.html</code>, and <code>event.html</code
+            ><br />2. <strong>COMMIT</strong>&nbsp;<br />3. <strong>PUSH</strong>&nbsp;<br />4.
+            <strong>CHECK</strong>&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
