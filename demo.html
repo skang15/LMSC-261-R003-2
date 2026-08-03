@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        aquaText {
+            color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="aquaText">SARA's WEBSITE</h1>
+    <h1>More Title!</h1>
+    <p>This is some random text about Sara. I will put more here later.</p>
+    
+    <div id="funArea">
+        <p>
+            <ul>
+                snakes game
+                mario
+                blah blah
+            </ul>
+        </p>
+    </div>
+
+    <a href="">Google</a>
+
+    <script>
+        let bodyElement = document.querySelector("body");
+        console.log(bodyElement);
+
+        let h1Element = document.querySelector("h1");
+        console.log(h1Element);
+
+        let secondH1 = document.getElementsByTagName("h1");
+        console.log(secondH1[1]);
+        secondH1[1].textContent = "Something Else";
+        secondH1[1].style.color = "blue";
+
+        let aquaTextElements = document.getElementsByClassName("aquaText")
+        console.log(aquaTextElements);
+
+        let funArea = document.getElementById("funArea");
+        console.log(funArea);
+
+        let link = document
+        console.log(link);
+            link.setAttribute("href", "");
+
+            let button = document.querySelector("button");
+            button.addEventListener("click", changeButtonColor);
+
+            function changeButtonColor() {
+                console.log("hi")
+                button.style.color = "aqua"
+            }
+                
+    </script>
+</body>
+</html>
