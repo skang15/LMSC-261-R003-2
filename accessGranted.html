@@ -11,7 +11,7 @@
             color: white;
         }
         .profile-card {
-            border: 2px solid #208120;
+            border: 2px solid #ff4444;
             padding: 20px;
             border-radius: 15px;
             display: inline-block;
@@ -26,6 +26,15 @@
 
   <script>
     // MISSION: Write your override code below
-  </script>
+    let statusElement = document.getElementById("status");
+    statusElement.textContent = "Access Granted";
+    
+    let cardElement = document.querySelector(".profile-card");
+    cardElement.style.borderColor = "#208120";
+
+    let hackedElement = document.querySelector(".hackedStatus");
+    hackedElement.textContent = "Hacked by... Sara";
+
+</script>
 </body>
 </html>
